@@ -33,3 +33,8 @@ body {
 img {
     border-radius: 5px 5px 0em 0em;
 }
+
+button {
+    border-radius: 8px;
+    padding: 10px 25px;
+}
