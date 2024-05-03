@@ -23,3 +23,7 @@ body {
     max-inline-size: clamp(28em, calc());
     border-radius: 1.4em;
 }
+
+img {
+    border-radius: 5px 5px 0em 0em;
+}
