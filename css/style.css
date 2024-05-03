@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--white);
-    max-inline-size: clamp(28em, calc());
+    max-inline-size: clamp(28em, calc(28em + 1.5vw), 37.5em);
     border-radius: 1.4em;
 }
 
