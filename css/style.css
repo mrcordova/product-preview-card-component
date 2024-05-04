@@ -42,3 +42,19 @@ button {
     background-color: var(--dark-cyan);
     color: var(--white);
 }
+
+.price-section {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.price-section>h2 {
+    flex: 1;
+    margin: 0;
+}
+
+.price-section>span {
+    flex: 3;
+    padding-left: 5px;
+}
