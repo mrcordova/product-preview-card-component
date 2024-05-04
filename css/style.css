@@ -50,13 +50,15 @@ button>img {
 
 .card-body>h1 {
     color: var(--very-dark-blue);
+    font-size: clamp(1rem, 1.75em + 1.5vw, 4rem);
+        
 }
 
 .category {
     margin: 0;
     letter-spacing: 0.5em;
 }
-img {
+.perform-pic {
     border-radius: 5px 5px 0em 0em;
 }
 
@@ -88,6 +90,10 @@ img {
 
     .perform-pic {
         border-radius: 5px 0px 0px 5px;
+    }
+    .card-body {
+        
+        justify-content: space-around;
     }
     
 }
