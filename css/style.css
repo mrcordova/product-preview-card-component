@@ -52,6 +52,10 @@ button>img {
     color: var(--very-dark-blue);
 }
 
+.category {
+    margin: 0;
+    letter-spacing: 0.5em;
+}
 img {
     border-radius: 5px 5px 0em 0em;
 }
