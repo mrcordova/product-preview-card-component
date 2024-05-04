@@ -52,8 +52,12 @@ button>img {
 
 .card-body>h1 {
     color: var(--very-dark-blue);
-    font-size: clamp(1rem, 1.75em + 1.5vw, 3rem);
+    font-size: clamp(1em, 1.75em + 1.5vw, 3em);
         
+}
+
+.card-body.desc {
+    font-size: clamp(1em, 1.75em + 1.5vw, 3rem);
 }
 
 .category {
@@ -95,10 +99,11 @@ button>img {
         flex: 1;
     }
     .perform-pic {
-        border-radius: 5px 0px 0px 5px;
+        border-radius: 10px 0px 0px 10px;
         
     }
     .card-body {
+        padding: 40px;
         justify-content: space-around;
         flex: 1;
     }
