@@ -38,7 +38,7 @@ button>img {
     display: flex;
     flex-direction: column;
     background-color: var(--white);
-    max-inline-size: clamp(28em, calc(28em + 1.5vw), 37.5em);
+    max-inline-size: clamp(50em, calc(50em + 1.5vw), 70em);
     border-radius: 1.4em;
 }
 
@@ -71,7 +71,7 @@ img {
     flex: 1;
     margin: 0;
     color: var(--dark-cyan);
-    font-size: clamp( 2em, calc(2em + 1.5vw), 3em);
+    font-size: clamp( 1em, calc(2em + 1.5vw), 3em);
 }
 
 .price-section>span {
@@ -80,8 +80,17 @@ img {
     text-decoration: line-through;
 }
 
+@media (min-width: 52em) {
 
+    .card {
+        flex-direction: row;
+    }
 
+    .perform-pic {
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+}
 
 .fraunces-700 {
     font-family: "Fraunces", serif;
