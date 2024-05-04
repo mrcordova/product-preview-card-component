@@ -26,6 +26,11 @@ button {
     background-color: var(--dark-cyan);
     color: var(--white);
 }
+button:is(:hover, :focus) {
+    cursor: pointer;
+    background-color: var(--very-dark-blue);
+}
+
 button>p {
     margin: 0;
 
@@ -89,6 +94,10 @@ button>img {
 }
 
 @media (min-width: 41em) {
+
+    button {
+        padding: 20px 25px;
+    }
 
     .card {
         flex-direction: row;
