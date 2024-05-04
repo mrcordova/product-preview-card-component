@@ -15,6 +15,23 @@ body {
     font-size: var(--body-font-size);
     background-color: var(--cream);
 }
+button {
+    all: unset;
+    border-radius: 8px;
+    display: flex;
+    padding: 10px 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+}
+button>p {
+    margin: 0;
+
+}
+button>img {
+    padding-right: 10px;
+}
 
 .card {
     display: flex;
@@ -34,14 +51,6 @@ img {
     border-radius: 5px 5px 0em 0em;
 }
 
-button {
-    all: unset;
-    border-radius: 8px;
-    padding: 10px 25px;
-    text-align: center;
-    background-color: var(--dark-cyan);
-    color: var(--white);
-}
 
 .price-section {
     display: flex;
