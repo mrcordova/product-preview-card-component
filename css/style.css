@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: var(--body-font-size);
+    font-size: clamp(var(--body-font-size), calc(var(--body-font-size)), 5em);
     background-color: var(--cream);
     color: var(--dark-grayish-blue);
 }
@@ -38,7 +38,8 @@ button>img {
     display: flex;
     flex-direction: column;
     background-color: var(--white);
-    max-inline-size: clamp(50em, calc(50em + 1.5vw), 70em);
+    max-inline-size: clamp(30em, calc(50em + 1.5vw), 90em);
+  
     border-radius: 1.4em;
 }
 
@@ -46,11 +47,12 @@ button>img {
     display: flex;
     flex-direction: column;
     padding: 20px;
+
 }
 
 .card-body>h1 {
     color: var(--very-dark-blue);
-    font-size: clamp(1rem, 1.75em + 1.5vw, 4rem);
+    font-size: clamp(1rem, 1.75em + 1.5vw, 3rem);
         
 }
 
@@ -82,19 +84,25 @@ button>img {
     text-decoration: line-through;
 }
 
-@media (min-width: 52em) {
+@media (min-width: 41em) {
 
     .card {
         flex-direction: row;
+       
     }
 
+    picture {
+        flex: 1;
+    }
     .perform-pic {
         border-radius: 5px 0px 0px 5px;
+        
     }
     .card-body {
-        
         justify-content: space-around;
+        flex: 1;
     }
+    
     
 }
 
