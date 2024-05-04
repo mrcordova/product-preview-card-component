@@ -102,6 +102,11 @@ button>img {
         justify-content: space-around;
         flex: 1;
     }
+    .card-body>h1 {
+        margin: 0;
+    }
+
+
     
     
 }
